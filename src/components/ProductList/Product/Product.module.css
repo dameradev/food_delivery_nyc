@@ -1,0 +1,35 @@
+.Product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b9b9b9;
+  padding: 30px;
+  color: #363636;
+}
+.Product a {
+  text-decoration: none;
+  color: #363636;
+}
+
+.ImageContainer {
+  width: 25%;
+}
+
+.ImageContainer img {
+  width: 100%;
+}
+
+.ProductDetails {
+  width: 70%;
+}
+
+.RestaurantDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Green {
+  color: green;
+}

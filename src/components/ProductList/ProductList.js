@@ -1,10 +1,11 @@
 import React from "react";
 
 import Product from "./Product/Product";
+import classes from "./ProductList.module.css";
 
 const productList = props => {
   return (
-    <ul>
+    <ul className={classes.ProductList}>
       <Product />
     </ul>
   );
