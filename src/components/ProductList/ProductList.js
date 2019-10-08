@@ -10,6 +10,7 @@ const productList = props => {
       key={product._id}
       imgSrc={product.imgSrc}
       imgAlt={product.imgAlt}
+      price={product.price}
       title={product.title}
       description={product.description}
       restaurantName={product.restaurantName}
